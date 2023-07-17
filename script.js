@@ -1,5 +1,5 @@
 var sentences = [
-  { text: 'I play soccer..s', type: 'action' },
+  { text: 'I play soccer.', type: 'action' },
   { text: 'You run every morning.', type: 'action' },
   { text: 'He reads a book.', type: 'action' },
   { text: 'They cook dinner every night.', type: 'action' },
