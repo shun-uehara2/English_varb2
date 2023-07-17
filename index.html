@@ -2,22 +2,19 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Be Verb or Action Verb?</title>
 </head>
 
 <body>
-  Hello world
+  <h1>Is this sentence using a Be verb or an Action verb?</h1>
+  <p id="timer">05:00</p>
+  <p id="sentence"></p>
+  <button onclick="checkAnswer('be')">Be動詞</button>
+  <button onclick="checkAnswer('action')">一般動詞</button>
+  <p id="emoji"></p>
+  <p id="result"></p>
+  <p id="score"></p>
   <script src="script.js"></script>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 </body>
 
 </html>
