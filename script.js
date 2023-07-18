@@ -18,7 +18,7 @@ var sentences = [
   { text: 'You were in school.', type: 'be' },
   { text: 'He was successful.', type: 'be' },
   { text: 'We were busy.', type: 'be' },
-  { text: 'They were young..', type: 'be' }
+  { text: 'They were young.', type: 'be' }
 ];
 
 var correctAnswers = localStorage.getItem('correctAnswers') ? parseInt(localStorage.getItem('correctAnswers')) : 0;
